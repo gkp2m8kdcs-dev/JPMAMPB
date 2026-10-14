@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="JPMAMPB Support — get help with the app, report a bug, or request a feature.">
+<title>Support — JPMAMPB</title>
+<style>
+  :root {
+    --bg: #0b1020;
+    --bg-2: #11182f;
+    --card: #16203c;
+    --text: #e8ecf7;
+    --muted: #9aa3bd;
+    --accent: #4f8cff;
+    --accent-2: #6ad1c3;
+    --border: #25304d;
+    --warn: #ffb86b;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, var(--bg) 0%, var(--bg-2) 100%);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 48px 24px 80px; }
+  header { margin-bottom: 32px; }
+  .brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+    font-weight: 600;
+  }
+  .logo-mark {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 16px;
+    color: #0b1020;
+  }
+  h1 { font-size: 32px; margin: 8px 0 4px; letter-spacing: -0.02em; }
+  .lede { color: var(--muted); font-size: 17px; margin: 0 0 24px; }
+  section {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 28px;
+    margin-bottom: 16px;
+  }
+  h2 { font-size: 19px; margin: 0 0 10px; letter-spacing: -0.01em; }
+  h3 { font-size: 16px; margin: 18px 0 6px; }
+  p { margin: 0 0 12px; }
+  ul, ol { padding-left: 20px; margin: 8px 0 12px; }
+  li { margin-bottom: 6px; }
+  .muted { color: var(--muted); }
+  .contact-card {
+    background: linear-gradient(135deg, rgba(79, 140, 255, 0.12) 0%, rgba(106, 209, 195, 0.10) 100%);
+    border: 1px solid rgba(79, 140, 255, 0.3);
+    border-radius: 12px;
+    padding: 22px;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .contact-card .email {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--accent);
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 14px;
+    margin-top: 12px;
+  }
+  .topic {
+    background: rgba(79, 140, 255, 0.08);
+    border: 1px solid rgba(79, 140, 255, 0.2);
+    border-radius: 12px;
+    padding: 16px;
+  }
+  .topic h3 { margin-top: 0; color: var(--accent); }
+  .topic p { font-size: 14px; color: var(--muted); margin-bottom: 0; }
+  code {
+    background: rgba(255, 255, 255, 0.06);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+    font-size: 13px;
+  }
+  footer {
+    margin-top: 32px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    text-align: center;
+    color: var(--muted);
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="brand">
+      <div class="logo-mark">J</div>
+      <span>JPMAMPB</span>
+    </div>
+    <h1>Support</h1>
+    <p class="lede">Need help with JPMAMPB? We're here for you. Most questions are answered within two business days.</p>
+  </header>
+
+  <div class="contact-card">
+    <p style="margin: 0 0 6px; color: var(--muted);">Direct support email</p>
+    <p class="email" style="margin: 0;"><a href="mailto:datltan1991@icloud.com">datltan1991@icloud.com</a></p>
+    <p class="muted" style="margin: 8px 0 0; font-size: 13px;">Open the in-app Support section to attach diagnostic info automatically.</p>
+  </div>
+
+  <section>
+    <h2>How to Reach Us</h2>
+    <ol>
+      <li><strong>In-app (recommended):</strong> Open JPMAMPB, go to <em>Settings → Support</em>. Sending from inside the app automatically attaches non-personal diagnostic information that helps us reproduce and fix issues faster.</li>
+      <li><strong>Email:</strong> Write to <a href="mailto:datltan1991@icloud.com">datltan1991@icloud.com</a> from any email client.</li>
+    </ol>
+    <p>Before writing, please check the topics below — your question may already be covered.</p>
+  </section>
+
+  <section>
+    <h2>Common Topics</h2>
+    <div class="grid">
+      <div class="topic">
+        <h3>Getting Started</h3>
+        <p>Onboarding, creating your first portfolio, adding a trade, attaching receipts.</p>
+      </div>
+      <div class="topic">
+        <h3>Charts & Market Data</h3>
+        <p>Candlestick / line / mountain modes, moving averages, volume, refresh behavior.</p>
+      </div>
+      <div class="topic">
+        <h3>Portfolios & Tools</h3>
+        <p>Multiple portfolios, allocation drift, DCA simulator, bear/bull scenarios, rebalancing.</p>
+      </div>
+      <div class="topic">
+        <h3>Import & Export</h3>
+        <p>CSV / JSON export, formatting, and what to do if your export looks off.</p>
+      </div>
+      <div class="topic">
+        <h3>Privacy & Data</h3>
+        <p>Where your data is stored, how to back up, and how to delete everything.</p>
+      </div>
+      <div class="topic">
+        <h3>Bug Reports</h3>
+        <p>Crashes, unexpected behavior, and feature requests.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Before You Write — Quick Checks</h2>
+    <ol>
+      <li><strong>Update the app.</strong> Most reported issues are resolved in the latest version.</li>
+      <li><strong>Restart the app.</strong> Fully close JPMAMPB from the app switcher and reopen it.</li>
+      <li><strong>Restart the device.</strong> Resolves most transient iOS issues.</li>
+      <li><strong>Check iOS version.</strong> JPMAMPB requires a recent version of iOS.</li>
+      <li><strong>Review permissions.</strong> Camera and photo access can be toggled in iOS Settings → Privacy.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Writing a Helpful Bug Report</h2>
+    <p>The more context you give, the faster we can help. Please include:</p>
+    <ul>
+      <li><strong>What you were doing</strong> — which screen, which action, what you tapped.</li>
+      <li><strong>What you expected to happen</strong></li>
+      <li><strong>What actually happened</strong> — exact text of any error message if shown.</li>
+      <li><strong>Device & iOS version</strong> — iPhone model and Settings → General → Software Version.</li>
+      <li><strong>App version</strong> — visible on the Settings tab.</li>
+      <li><strong>Screenshots or screen recordings</strong> if applicable.</li>
+    </ul>
+    <p class="muted">Please do not include brokerage passwords, account numbers, or other sensitive financial credentials. JPMAMPB does not need them to diagnose issues.</p>
+  </section>
+
+  <section>
+    <h2>Feature Requests</h2>
+    <p>We love hearing what you'd like to see next. Send feature requests to the same support email with the subject line starting with <code>Feature:</code>. Please describe:</p>
+    <ul>
+      <li>The problem you're trying to solve</li>
+      <li>Your proposed solution</li>
+      <li>Any alternatives you've considered</li>
+    </ul>
+    <p class="muted">We review every request, but cannot guarantee timelines for individual features.</p>
+  </section>
+
+  <section>
+    <h2>Response Times</h2>
+    <ul>
+      <li><strong>Bug reports:</strong> typically within 2 business days</li>
+      <li><strong>Feature requests:</strong> acknowledged within 5 business days</li>
+      <li><strong>Privacy inquiries:</strong> within 5 business days</li>
+      <li><strong>Other questions:</strong> within 3 business days</li>
+    </ul>
+    <p class="muted">We do not operate on weekends or public holidays in Asia/Shanghai.</p>
+  </section>
+
+  <section>
+    <h2>Important Disclaimer</h2>
+    <p>JPMAMPB is a journaling and analysis tool for educational use only. It does not provide investment advice, brokerage services, or trade execution. Nothing in the app or in our support responses constitutes a recommendation to buy or sell any security. Past performance of any strategy simulated within the app is not indicative of future results.</p>
+    <p>For questions specific to your brokerage account, taxes, or financial planning, please consult a licensed professional.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 JPMAMPB. All rights reserved.</p>
+    <p><a href="index.html">Home</a> &middot; <a href="privacy.html">Privacy Policy</a> &middot; <a href="terms.html">Terms of Use</a></p>
+  </footer>
+
+</div>
+</body>
+</html>

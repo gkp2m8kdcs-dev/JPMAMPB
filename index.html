@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="JPMAMPB — A private, offline-first portfolio journal and market analysis companion for self-directed investors.">
+<title>JPMAMPB — Portfolio Journal & Market Analysis</title>
+<style>
+  :root {
+    --bg: #0b1020;
+    --bg-2: #11182f;
+    --card: #16203c;
+    --text: #e8ecf7;
+    --muted: #9aa3bd;
+    --accent: #4f8cff;
+    --accent-2: #6ad1c3;
+    --border: #25304d;
+    --warn: #ffb86b;
+    --danger: #ff6b8b;
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(180deg, var(--bg) 0%, var(--bg-2) 100%);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 48px 24px 80px; }
+  header { text-align: center; margin-bottom: 56px; }
+  .logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  .logo-mark {
+    width: 56px;
+    height: 56px;
+    border-radius: 14px;
+    background: linear-gradient(135deg, var(--accent) 0%, var(--accent-2) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 22px;
+    color: #0b1020;
+    box-shadow: 0 8px 24px rgba(79, 140, 255, 0.35);
+  }
+  h1 {
+    font-size: 40px;
+    margin: 8px 0 12px;
+    letter-spacing: -0.02em;
+  }
+  .tagline {
+    color: var(--muted);
+    font-size: 18px;
+    max-width: 640px;
+    margin: 0 auto;
+  }
+  section {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 28px;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 22px;
+    margin: 0 0 14px;
+    letter-spacing: -0.01em;
+  }
+  h3 { font-size: 17px; margin: 22px 0 8px; }
+  p { margin: 0 0 12px; color: var(--text); }
+  ul { padding-left: 20px; margin: 8px 0 12px; }
+  li { margin-bottom: 6px; color: var(--text); }
+  .muted { color: var(--muted); }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+    margin-top: 16px;
+  }
+  .feature {
+    background: rgba(79, 140, 255, 0.08);
+    border: 1px solid rgba(79, 140, 255, 0.2);
+    border-radius: 12px;
+    padding: 18px;
+  }
+  .feature h3 { margin-top: 0; color: var(--accent); }
+  footer {
+    margin-top: 40px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    text-align: center;
+    color: var(--muted);
+    font-size: 14px;
+  }
+  .pill {
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: rgba(106, 209, 195, 0.15);
+    color: var(--accent-2);
+    font-size: 12px;
+    font-weight: 600;
+    margin-right: 6px;
+    margin-bottom: 6px;
+  }
+  .disclaimer {
+    background: rgba(255, 184, 107, 0.08);
+    border: 1px solid rgba(255, 184, 107, 0.25);
+    border-radius: 12px;
+    padding: 16px;
+    font-size: 14px;
+    color: var(--warn);
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="logo">
+      <div class="logo-mark">J</div>
+      <strong style="font-size: 20px;">JPMAMPB</strong>
+    </div>
+    <h1>Your investing edge,<br>one trade at a time.</h1>
+    <p class="tagline">A private, offline-first portfolio journal and market analysis companion for self-directed investors. Capture every decision, visualize every market, and let discipline compound.</p>
+  </header>
+
+  <section>
+    <h2>What is JPMAMPB?</h2>
+    <p>JPMAMPB is a portfolio journal you actually open every day — built around the conviction that disciplined record-keeping is the highest-leverage habit in retail trading. It combines a fully featured trade journal with institutional-grade market visualization, portfolio analytics, and an in-app investing curriculum. Everything lives on your device: no sign-in, no cloud sync, no tracking.</p>
+    <div>
+      <span class="pill">Offline-first</span>
+      <span class="pill">No account required</span>
+      <span class="pill">No tracking</span>
+      <span class="pill">Your data, your device</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Trade Journal</h2>
+    <p>Capture every buy, sell, dividend, and split with full context — quantity, price, fees, venue, notes, color-coded tags, and photo receipts. Your complete trading history in one searchable, exportable record.</p>
+    <ul>
+      <li>Buys, sells, dividends, and stock splits</li>
+      <li>Fees, venue, and currency per entry</li>
+      <li>Color-coded tags and free-form notes</li>
+      <li>Photo receipts from camera or photo library</li>
+      <li>CSV and JSON export whenever you need a backup</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Market Visualization</h2>
+    <p>Institutional-grade charts rendered natively in SwiftUI — no third-party chart dependencies. Inspect any ticker across global exchanges with the depth of detail professional platforms rely on.</p>
+    <div class="grid">
+      <div class="feature">
+        <h3>Candlestick · Line · Mountain</h3>
+        <p class="muted">Three chart modes, drawn natively on-device for crisp rendering and instant interaction.</p>
+      </div>
+      <div class="feature">
+        <h3>Moving Averages</h3>
+        <p class="muted">MA 7, MA 25, and MA 99 overlays for trend context at a glance.</p>
+      </div>
+      <div class="feature">
+        <h3>Volume Bars</h3>
+        <p class="muted">Volume confirmation baked into every chart view.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Portfolio Analytics</h2>
+    <p>Manage multiple portfolios side-by-side and analyze real-time allocation drift across sectors and exchanges. Simulate strategies and rebalance with clear buy/sell recommendations.</p>
+    <ul>
+      <li>Multi-portfolio tracking with side-by-side comparison</li>
+      <li>Real-time allocation drift by sector and exchange</li>
+      <li>Dollar-cost averaging simulator</li>
+      <li>Bear / bull price scenario modeling</li>
+      <li>Target-weight rebalancing with explicit recommendations</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Learn</h2>
+    <p>A built-in curriculum for independent investors who want to internalize the math and psychology behind every position.</p>
+    <ul>
+      <li>Eight evidence-based investing articles</li>
+      <li>Five structured lessons from beginner to advanced — watchlists, financial statements, risk management, tax efficiency, and options hedging</li>
+      <li>Twenty-term glossary for quick reference</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Privacy by Design</h2>
+    <p>JPMAMPB does not collect personal data. There is no account, no analytics SDK, and no remote backend for your journal. Your trades, portfolios, and notes stay on your device unless you choose to export them.</p>
+    <p>Read the full <a href="privacy.html">Privacy Policy</a>.</p>
+  </section>
+
+  <section>
+    <h2>Get in Touch</h2>
+    <p>For support, feature requests, or any other inquiry, please reach out via the in-app Support section or email us directly.</p>
+    <p><strong>Support email:</strong> <a href="mailto:datltan1991@icloud.com">datltan1991@icloud.com</a></p>
+  </section>
+
+  <div class="disclaimer">
+    Educational use only. JPMAMPB is a journaling and analysis tool. It does not provide investment advice, brokerage services, or trade execution. Nothing in the app constitutes a recommendation to buy or sell any security.
+  </div>
+
+  <footer>
+    <p>&copy; 2026 JPMAMPB. All rights reserved.</p>
+    <p><a href="privacy.html">Privacy Policy</a> &middot; <a href="support.html">Support</a> &middot; <a href="terms.html">Terms of Use</a></p>
+  </footer>
+
+</div>
+</body>
+</html>
